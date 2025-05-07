@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <style>
-        @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 390px) {
     .desktop-header {
       display: none !important;
     }
@@ -24,7 +24,7 @@
     }
 
     .main-container {
-      padding: 25px !important;
+      padding: 16px 45px !important;
     }
 
     .heading {
@@ -35,19 +35,97 @@
       font-size: 18px !important;
     }
 
+    .subtopic {
+      font-size: 19px !important;
+
+    }
+
     .button {
       font-size: 16px !important;
       padding: 10px 20px !important;
     }
 
-    .footer-text {
+    .warning {
       font-size: 14px !important;
+    }
+
+    .footer-text {
+      font-size: 15px !important;
     }
 
     .social-icons img {
       width: 24px !important;
     }
   }
+
+  @media only screen and (max-width: 428px) {
+  .desktop-header {
+    display: none !important;
+  }
+
+  .mobile-header {
+    display: block !important;
+  }
+
+  .body {
+    font-size: 16px !important;
+  }
+
+  .table {
+    width: 100% !important;
+  }
+
+  .main-container {
+    padding: 16px 45px !important;
+  }
+
+  .heading {
+    font-size: 30px !important; 
+    margin-bottom: 35px !important;
+  }
+
+  .subheading {
+    font-size: 24px !important;
+  }
+
+  .subtopic {
+    font-size: 20px !important;
+    margin-top: 25px;
+  }
+
+  .button {
+    font-size: 17px !important;
+    padding: 12px 22px !important;
+    
+  }
+
+  .warning {
+    margin-top: 35px !important;
+    font-size: 16px !important;
+    
+  }
+
+  .contact {
+    font-size: 16px !important;
+    margin-top: 25px;
+    margin-bottom: 40px !important;
+  }
+
+  .footer {
+    padding: 5px 0px !important;
+  }
+
+  .footer-text {
+    font-size: 17px !important;
+    margin-top: 30px !important;
+  }
+
+  .social-icons {
+    letter-spacing: 10px !important;
+    margin-top: 20px !important;
+  }
+}
+
     </style>
   </head>
   <body style="margin: 0; padding: 0; background-color: #ffffff; height: 100%;">
@@ -71,7 +149,7 @@
               <td class="main-container" style="padding: 20px 40px; font-family: Arial, sans-serif; background-color: #ffffff;  ">
                 <div class="subheading" style="font-size: 20px; font-weight: bold; color: #000000; margin-bottom: 16px;">Hi [Customer Name]!</div>
                 <div class="heading" style="font-size: 25px; font-weight: bold; color: #000000; margin-bottom: 20px;">Welcome to Bundl Designs!🎉</div>
-                <div style="font-size: 18px; color: #000000; margin-bottom: 30px;">
+                <div class="subtopic" style="font-size: 18px; color: #000000; margin-bottom: 30px;">
                   We’re so excited to have you on board. To activate your account, please verify your email by clicking the link below.
                 </div>
 
@@ -87,7 +165,7 @@
                   </tr>
                 </table>
 
-               <p style="font-size: 15px; color: #000000; margin-bottom: 24px; text-align: justify;">
+               <p class="warning" style="font-size: 15px; color: #000000; margin-bottom: 24px; text-align: justify;">
                   In case you did not request this, please ignore this email.
                 </p> 
                 <div style="font-size: 15px; color: #000000; text-align: center;">
