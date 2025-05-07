@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Forgot Password</title>
+    <title>Order Confirmation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
@@ -26,20 +26,22 @@
             }
 
             .main-container {
-                padding: 25px !important;
+                padding: 25px 45px !important;
                 height: 100%;
             }
 
             .heading {
-                font-size: 32px !important;
+                font-size: 25px !important;
             }
 
             .heading2 {
-                font-size: 19px !important;
+                font-size: 20px !important;
+                text-align: left !important;
             }
 
             .heading3 {
-                font-size: 20px !important;
+                font-size: 17px !important;
+                text-align: left !important;
             }
 
             .subheading {
@@ -49,6 +51,14 @@
             .button {
                 font-size: 16px !important;
                 padding: 10px 20px !important;
+            }
+
+            .note {
+                font-size: 14px !important;
+            }
+
+            .summary {
+                font-size: 18px !important;
             }
 
             .footer-text {
@@ -62,8 +72,69 @@
             .footer {
                 height: auto;
             }
+        }
+
+        @media only screen and (min-width: 391px) and (max-width: 428px) {
+            .desktop-header {
+                display: none !important;
+            }
+
+            .mobile-header {
+                display: block !important;
+            }
+
+            body {
+                font-size: 16px !important;
+                overflow-y: scroll;
+            }
+
+            table {
+                width: 100% !important;
+            }
+
+            .main-container {
+                padding: 25px 45px !important;
+                height: 100%;
+            }
+
+            .heading {
+                font-size: 25px !important;
+            }
+
+            .heading2 {
+                font-size: 20px !important;
+                text-align: left !important;
+            }
+
+            .heading3 {
+                font-size: 17px !important;
+            }
+
+            .subheading {
+                font-size: 18px !important;
+            }
+
+            .button {
+                font-size: 16px !important;
+                padding: 10px 20px !important;
+            }
+
+            .note {
+                font-size: 16px !important;
+            }
 
 
+            .footer-text {
+                font-size: 14px !important;
+            }
+
+            .social-icons img {
+                width: 24px !important;
+            }
+
+            .footer {
+                height: auto;
+            }
         }
     </style>
 </head>
@@ -130,7 +201,7 @@
 
                             <div
                                 style="border: 1px solid #50A471; padding: 20px; font-size: 16px; color: #000000; margin-top: 20px; font-family: Helvetica, Arial, sans-serif;">
-                                <div style="font-weight: bold; margin-bottom: 10px; font-size: 20px;">[Order Summary]
+                                <div class="summary" style="font-weight: bold; margin-bottom: 10px; font-size: 20px;">[Order Summary]
                                 </div>
 
                                 <div style="margin-bottom: 10px; font-weight: bold; color: #50A471;">
@@ -182,7 +253,7 @@
 
 
                             <div
-                                style="border: 2px solid #4140414e; padding: 15px; font-size: 16px; color: #000000; margin-top: 24px; background-color: #ffff;;">
+                                class="note" style="border: 2px solid #4140414e; padding: 15px; font-size: 16px; color: #000000; margin-top: 24px; background-color: #ffff;;">
                                 <strong>Kindly note:</strong>
                                 <ul style="padding-left: 20px; margin: 10px 0; ">
                                     <li>If we don’t hear back from you within 30 days, your project will be placed on
