@@ -2,126 +2,382 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Forgot Password</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Brand Identity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-        @media only screen and (max-width: 480px) {
-    .desktop-header {
-      display: none !important;
-    }
+      @media only screen and (max-width: 480px) {
+        .mobile-break {
+          display: block !important;
+        }
 
-    .mobile-header {
-      display: block !important;
-    }
+        .desktop-header {
+          display: none !important;
+        }
 
-    body {
-      font-size: 16px !important;
-    }
+        .mobile-header {
+          display: block !important;
+        }
 
-    table {
-      width: 100% !important;
-    }
+        body {
+          font-size: 16px !important;
+        }
 
-    .main-container {
-      padding: 25px !important;
-    }
+        table {
+          width: 100% !important;
+        }
 
-    .heading {
-      font-size: 24px !important;
-    }
+        .main-container {
+          padding: 25px !important;
+        }
 
-    .subheading {
-      font-size: 18px !important;
-    }
+        .heading {
+          font-size: 30px !important;
+        }
 
-    .button {
-      font-size: 16px !important;
-      padding: 10px 20px !important;
-    }
+        .subheading {
+          font-size: 23px !important;
+        }
 
-    .footer {
-      padding-bottom: 40px !important
-    }
+        .nextstep {
+          font-size: 25px !important;
+        }
 
-    .footer-text {
-      font-size: 14px !important;
-    }
+        .button {
+          font-size: 16px !important;
+          padding: 10px 20px !important;
+        }
 
-    .social-icons img {
-      width: 24px !important;
-      padding-top: 10px;
-    }
-  }
+        .footer {
+          padding-bottom: 40px !important;
+          padding: 10px 0px !important;
+        }
+
+        .footer-text {
+          font-size: 14px !important;
+        }
+
+        .social-icons img {
+          padding-top: 10px;
+          font-size: 80px !important;
+        }
+      }
+
+      @media only screen and (min-width: 391px) and (max-width: 428px) {
+        .mobile-break {
+          display: block !important;
+        }
+
+        .desktop-header {
+          display: none !important;
+        }
+
+        .mobile-header {
+          display: block !important;
+        }
+
+        body {
+          font-size: 16px !important;
+        }
+
+        table {
+          width: 100% !important;
+        }
+
+        .main-container {
+          padding: 25px !important;
+        }
+
+        .heading {
+          font-size: 30px !important;
+        }
+
+        .subheading {
+          font-size: 23px !important;
+        }
+
+        .warning {
+          font-size: 25px !important;
+        }
+
+        .nextstep {
+          font-size: 25px !important;
+        }
+
+        .button {
+          font-size: 16px !important;
+          padding: 10px 20px !important;
+        }
+
+        .footer {
+          padding-bottom: 40px !important;
+          padding: 10px 0px !important;
+        }
+
+        .footer-text {
+          font-size: 14px !important;
+        }
+
+        .social-icons img {
+          padding-top: 10px;
+          font-size: 80px !important;
+        }
+      }
     </style>
   </head>
-  <body style="margin: 0; padding: 0; background-color: #ffffff; height: 100%;">
-    <table width="100%" cellpadding="0" cellspacing="0"  style="background-color: #ffffff; padding: 0; margin: 0; height: 100%;">
+  <body style="margin: 0; padding: 0; background-color: #ffffff; height: 100%">
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      style="background-color: #ffffff; padding: 0; margin: 0; height: 100%"
+    >
       <tr>
-        <td align="center" valign="top" style="vertical-align: top; ">
-          <table width="600" cellpadding="0" cellspacing="0"  style="max-width: 600px; width: 100%; border-collapse: collapse;">
+        <td align="center" valign="top" style="vertical-align: top">
+          <table
+            width="600"
+            cellpadding="0"
+            cellspacing="0"
+            style="max-width: 600px; width: 100%; border-collapse: collapse"
+          >
             <!-- Header -->
             <tr>
-              <td style="padding: 0; margin: 0;">
+              <td style="padding: 0; margin: 0">
                 <!-- Desktop image -->
-                <img class="desktop-header" src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/ar_bluedesktop.png" alt="Banner" style="display: block; width: 100%; max-width: 600px; height: auto; border: 0;" />
-            
+                <img
+                  class="desktop-header"
+                  src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/ar_bluedesktop.png"
+                  alt="Banner"
+                  style="
+                    display: block;
+                    width: 100%;
+                    max-width: 600px;
+                    height: auto;
+                    border: 0;
+                  "
+                />
+
                 <!-- Mobile image -->
-                <img class="mobile-header" src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/ar_bluemobile.png" alt="Mobile Banner" style="display: none; width: 100%; max-width: 600px; height: auto; border: 0;" />
+                <img
+                  class="mobile-header"
+                  src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/ar_bluemobile.png"
+                  alt="Mobile Banner"
+                  style="
+                    display: none;
+                    width: 100%;
+                    max-width: 600px;
+                    height: auto;
+                    border: 0;
+                  "
+                />
               </td>
             </tr>
 
             <!-- Content -->
             <tr>
-              <td class="main-container" dir="rtl" style="padding: 20px 30px; font-family: 'Helvetica Neue', Helvetica; background-color: #ffffff; text-align: right;  ">
-                <div class="subheading" style="font-size: 25px; font-weight: bold; color: #000000; margin-bottom: 16px;">  أهلًا بك [اسم العميل]! </div>
-                <div class="heading" style="font-size: 35px; font-weight: bold; color: #000000; margin-bottom: 20px;">هويتك البصرية صارت جاهزة!🎉</div>
-                <div style=" font-size: 23px; color: #000000; margin-bottom: 30px; text-align: justify;   text-align: right;">
+              <td
+                class="main-container"
+                dir="rtl"
+                style="
+                  padding: 20px 30px;
+                  font-family: 'Helvetica Neue', Helvetica;
+                  background-color: #ffffff;
+                  text-align: right;
+                "
+              >
+                <div
+                  class="subheading"
+                  style="
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: #000000;
+                    margin-bottom: 16px;
+                  "
+                >
+                  أهلًا بك [اسم العميل]!
+                </div>
+                <div
+                  class="heading"
+                  style="
+                    font-size: 35px;
+                    font-weight: bold;
+                    color: #000000;
+                    margin-bottom: 20px;
+                  "
+                >
+                  هويتك البصرية صارت
+                  <span class="mobile-break" style="display: inline"
+                    >جاهزة!🎉</span
+                  >
+                </div>
+                <div
+                  class="warning"
+                  style="
+                    font-size: 23px;
+                    color: #000000;
+                    margin-bottom: 30px;
+                    text-align: justify;
+                    text-align: right;
+                  "
+                >
                   نرجو منك مراجعتها وإبلاغنا في حال رغبت بأي تعديل.
                 </div>
 
-                <div style="font-size: 23px; color: #000000; margin-bottom: 30px; text-align: right;">
-                  <span style="color: #0FA5C5;">الخطوة التالية:</span> اضغط على الرابط أدناه لمراجعة الهوية والموافقة عليها أو طلب تعديلات.
+                <div
+                  class="nextstep"
+                  style="
+                    font-size: 23px;
+                    color: #000000;
+                    margin-bottom: 30px;
+                    text-align: right;
+                  "
+                >
+                  <span style="color: #0fa5c5">الخطوة التالية:</span> اضغط على
+                  الرابط أدناه
+                  <span class="mobile-break" style="display: inline"
+                    >لمراجعة الهوية والموافقة عليها أو طلب</span
+                  >
+                  <span class="mobile-break" style="display: inline"
+                    >تعديلات.</span
+                  >
                 </div>
 
                 <!-- Button Full Width -->
-              <table border="0" cellpadding="0" cellspacing="0" width="100%"
-              style="margin-bottom: 20px;  background-color: #0FA5C5;">
-              <tr>
-                <td align="center"
-                  style="padding: 6px 0; font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; font-weight: bold; text-align: center;">
-                  <a href="#" target="_blank"
-                    style="color: #ffffff; text-decoration: none; display: inline-block; width: 100%; font-weight: bold; font-size: 20px; font-family: Arial, sans-serif;">
-                    مراجعة الهوية
-                  </a>
-                </td>
-              </tr>
-            </table>
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                  style="margin-bottom: 20px; background-color: #0fa5c5"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        padding: 6px 0;
+                        font-size: 16px;
+                        font-family: Arial, sans-serif;
+                        color: #ffffff;
+                        font-weight: bold;
+                        text-align: center;
+                      "
+                    >
+                      <a
+                        href="#"
+                        target="_blank"
+                        style="
+                          color: #ffffff;
+                          text-decoration: none;
+                          display: inline-block;
+                          width: 100%;
+                          font-weight: bold;
+                          font-size: 20px;
+                          font-family: Arial, sans-serif;
+                        "
+                      >
+                        مراجعة الهوية
+                      </a>
+                    </td>
+                  </tr>
+                </table>
 
-                <div dir="rtl" style="border: 1px solid #000000; padding: 15px; font-size: 16px; color: #000000; margin-bottom: 24px; background-color: #ffffff; text-align: right; line-height: 1.6;">
+                <div
+                  dir="rtl"
+                  class="note"
+                  style="
+                    font-size: 17px;
+                    color: #000000;
+                    text-align: right;
+                    line-height: 1.6;
+                    background-color: #ffffff;
+                    margin-bottom: 24px;
+                    border: 1px solid #000000;
+                    padding: 15px;
+                  "
+                >
                   <strong>يرجى الملاحظة:</strong><br />
-                   - إذا لم نتلق ردًا منك خلال 30 يومًا، سيتم تعليق مشروعك.<br />
-                   - المشاريع غير النشطة لمدة 6 أشهر سيتم إغلاقها.
-                 </div>
-                <div style="font-size: 19px; color: #000000; text-align: center;">
-                  عندك سؤال؟ <a href="#" style="color: #0FA5C5; font-weight: bold; text-decoration: underline;">تواصل معنا</a>
+                  <div class="first-30" style="margin-top: 10px">
+                    - إذا لم نتلق ردًا منك خلال 30 يومًا، سيتم
+                    <span class="mobile-break" style="display: inline"
+                      >تعليق مشروعك.</span
+                    >
+                  </div>
+                  <div class="second-6" style="margin-top: 5px">
+                    - المشاريع غير النشطة لمدة 6 أشهر سيتم
+                    <span class="mobile-break" style="display: inline"
+                      >إغلاقها.</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  style="font-size: 19px; color: #000000; text-align: center"
+                >
+                  عندك سؤال؟
+                  <a
+                    href="#"
+                    style="
+                      color: #0fa5c5;
+                      font-weight: bold;
+                      text-decoration: underline;
+                    "
+                    >تواصل معنا</a
+                  >
                 </div>
               </td>
             </tr>
 
             <!-- Footer -->
             <tr>
-              <td class= "footer" style="background-color: #0FA5C5; padding: 10px 10px; text-align: center; font-family: Helvetica; ">
-                <div class="social-icons" style="margin-bottom: 14px; line-height: 0; color: white; letter-spacing: 3px;"> 
-                  <img src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/insta.png" style="width: 28px; margin: 0 5px; display: inline-block;" />
-                  <img src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/facebook.png" style="width: 28px; margin: 0 5px; display: inline-block;" />
-                  <img src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/twitter.png" style="width: 28px; margin: 0 5px; display: inline-block;" />
-                  <img src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/linkedin.png" style="width: 28px; margin: 0 5px; display: inline-block;" />
-                  <img src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/whatsapp.png" style="width: 28px; margin: 0 5px; display: inline-block;" />
-                  <img src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/email.png" style="width: 28px; margin: 0 5px; display: inline-block;" />
+              <td
+                class="footer"
+                style="
+                  background-color: #0fa5c5;
+                  padding: 10px 10px;
+                  text-align: center;
+                  font-family: Helvetica;
+                "
+              >
+                <div
+                  class="social-icons"
+                  style="
+                    margin-bottom: 14px;
+                    line-height: 0;
+                    color: white;
+                    letter-spacing: 3px;
+                  "
+                >
+                  <img
+                    src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/insta.png"
+                    style="width: 28px; margin: 0 5px; display: inline-block"
+                  />
+                  <img
+                    src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/facebook.png"
+                    style="width: 28px; margin: 0 5px; display: inline-block"
+                  />
+                  <img
+                    src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/twitter.png"
+                    style="width: 28px; margin: 0 5px; display: inline-block"
+                  />
+                  <img
+                    src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/linkedin.png"
+                    style="width: 28px; margin: 0 5px; display: inline-block"
+                  />
+                  <img
+                    src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/whatsapp.png"
+                    style="width: 28px; margin: 0 5px; display: inline-block"
+                  />
+                  <img
+                    src="https://bundldesigns-ag7c3.ondigitalocean.app/media/email_contents/email.png"
+                    style="width: 28px; margin: 0 5px; display: inline-block"
+                  />
                 </div>
-                <p class="footer-text" style="font-size: 16px; color: white; margin-top:18px;">All rights Reserved</p>
-
+                <p
+                  class="footer-text"
+                  style="font-size: 16px; color: white; margin-top: 18px"
+                >
+                  All rights Reserved
+                </p>
               </td>
             </tr>
           </table>
@@ -130,7 +386,3 @@
     </table>
   </body>
 </html>
-
-
-
-
